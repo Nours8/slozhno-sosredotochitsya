@@ -4,12 +4,6 @@
 */
 :root {
   --bg-image: url(/images/cover-image-dark.png);
-  /* --main-bg-color: #000028;
-  --main-text-color: #000028;
-  --accent-color-bg: #FF0070;
-  --accent-color-text: #FF0070;
-  --text-color-black: #000028;
-  --main-font: 'IBM Plex Mono', monospace, sans-serif; */
   --large-text-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --main-text-size: 18px;
   --main-text-lh: 1.3;

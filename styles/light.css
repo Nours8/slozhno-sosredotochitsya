@@ -35,9 +35,7 @@
   --title-decor-text: #000028;
   --font: 'IBM Plex Mono', monospace, sans-serif;
   --hover-color: rgba(50, 49, 45, 0.40);
-}
 
-.page.theme_light { 
   .tag__marker {
     visibility: hidden;
   }
@@ -49,56 +47,20 @@
     padding: 0px 13px;
     justify-content: center;
     align-items: center;
-    
   }
 }
 
-
-
-  /* @media (prefers-color-scheme: light) {
-    .page.theme_light {
-      .header {
-        background-position: center;
-      }
-
-      .header__theme-menu-button {
-        color: var(--main-text-color);
-      }
-
-      .header__theme-menu-button_type_light {
-        outline: 1px solid var(--main-text-color);
-        padding: 0 13px;
-      }
-
-      .page__title {
-        color: #ffc2e6;
-      }
-
-      .footer-title {
-        color: #ffc2e6;
-      }
-
-      .tag__marker {
-        opacity: 0;
-      }
-    }
+/* .page.theme_light { 
+  .tag__marker {
+    visibility: hidden;
   }
-
-  @media (width >= 1024px) and (prefers-color-scheme: light) {
-    .page__title {
-      text-shadow: 4px 4px 0px #ff0070;
-    }
-
-    .decorated-zone::after,
-    .decorated-zone::before {
-      border-color: #353430;
-    }
-
-    .footer-title {
-      text-shadow: 2px 2px 0 #ff0070;
-    }
-  } */
-
-
-
-/* Остальные стили */
+  
+  .header__theme-menu-button_type_light {
+    outline: 1px solid var(--accent-color-text);
+    display: inline-flex;
+    height: 26px;
+    padding: 0px 13px;
+    justify-content: center;
+    align-items: center;
+  }
+} */
