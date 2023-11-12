@@ -14,7 +14,6 @@
   padding: 2.8vw;
   margin-bottom: 10.667%;
   position: relative;
-  min-width: 375px;
   min-height: 668px;
   height: 100vh;
 }
@@ -190,14 +189,16 @@
 
 @media (width >= 768px) {
   .header__paragraph {
-    min-width: 364px;
+    max-width: 364px;
+    width: 100%;
     margin-left: 364px;
   }
 }
 
 @media (width >= 1024px) {
   .header__paragraph {
-    min-width: 491px;
+    max-width: 491px;
+    width: 100%;
     margin-left: 493px;
   }
 }
