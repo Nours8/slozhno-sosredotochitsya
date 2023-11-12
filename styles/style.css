@@ -108,8 +108,8 @@
 
 @media (width >= 768px) {
   .header__theme-menu-list {
-    padding-top: 147.5px;
-    padding-bottom: 174.5px;
+    padding-top: 14.4vh;
+    padding-bottom:  17.04vh;
   }
 }
 
@@ -209,7 +209,7 @@
 
 @media (width >= 768px) {
   .header__text {
-    padding-bottom: 162px;
+    padding-bottom: 15.8vh;
   }
 }
 
